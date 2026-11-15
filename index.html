@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>인제 ♥ 시온, 결혼합니다</title>
+<meta name="description" content="2027년 2월 20일 토요일 오후 2시 20분 · 경기교총웨딩하우스">
+<meta property="og:type" content="website">
+<meta property="og:title" content="인제 ♥ 시온, 결혼합니다">
+<meta property="og:description" content="2027년 2월 20일 토요일 오후 2시 20분 · 경기교총웨딩하우스">
+<meta property="og:url" content="https://janes-wedding.com/">
+<meta property="og:image" content="https://janes-wedding.com/assets/ogwide.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#C1D5E2">
+<link rel="preload" href="assets/base0.webp" as="image">
+<link rel="preload" href="assets/fg0.webp" as="image">
+<link rel="preload" href="assets/cover.webp" as="image">
+<style>
+@font-face{font-family:'Pretendard';font-weight:400;font-display:swap;src:url(assets/fonts/pretendard-400.woff2) format('woff2')}
+@font-face{font-family:'Pretendard';font-weight:500;font-display:swap;src:url(assets/fonts/pretendard-500.woff2) format('woff2')}
+@font-face{font-family:'Pretendard';font-weight:600;font-display:swap;src:url(assets/fonts/pretendard-600.woff2) format('woff2')}
+@font-face{font-family:'MapoFlowerIsland';font-weight:400;font-display:swap;src:url(assets/fonts/mapo.woff2) format('woff2')}
+:root{--z:1;--wine:#8f2448;--rose:#b894a0;--sky:#d4e1e9;--line:#dedede}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0;background:#C1D5E2}
+body{font-family:'Pretendard',-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;color:var(--wine);-webkit-text-size-adjust:100%;overflow-x:hidden}
+body.lock{overflow:hidden}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer}
+input{font:inherit}
+.z{zoom:var(--z)}
+#app{width:390px;margin:0 auto;position:relative;opacity:0;background:#dfe9ef}
+body{background:#dfe9ef}
+#app.show{opacity:1}
+#app.fadein{animation:fadeIn .4s ease forwards}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.seg{position:relative;width:390px;background-repeat:no-repeat}
+#seg1{height:4646px;background-image:url(assets/base0.webp),url(assets/base1.webp),url(assets/base2.webp),url(assets/base3.webp),url(assets/base4.webp);background-size:390px 1000px;background-position:0 0,0 1000px,0 2000px,0 3000px,0 4000px}
+#seg2{background-image:url(assets/base4.webp);background-size:390px 1000px;background-position:0 -646px;padding:0 45px 2px}
+#seg3{height:395px;background-image:url(assets/base4.webp),url(assets/base5.webp);background-size:390px 1000px,390px 147px;background-position:0 -752px,0 248px}
+.fg{position:absolute;left:0;top:0;width:390px;height:100%;z-index:1;pointer-events:none;background-repeat:no-repeat}
+#seg1 .fg{background-image:url(assets/fg0.webp),url(assets/fg1.webp),url(assets/fg2.webp),url(assets/fg3.webp),url(assets/fg4.webp);background-size:390px 1000px;background-position:0 0,0 1000px,0 2000px,0 3000px,0 4000px}
+#seg2 .fg{background-image:url(assets/fg4.webp);background-size:390px 1000px;background-position:0 -646px}
+#seg3 .fg{background-image:url(assets/fg4.webp),url(assets/fg5.webp);background-size:390px 1000px,390px 147px;background-position:0 -752px,0 248px}
+.seg>*:not(.fg){z-index:2}
+#seg2 .acc{position:relative}
+#snow{position:fixed;left:0;top:0;width:100vw;height:100vh;z-index:0;pointer-events:none;display:block}
+.hot{position:absolute;display:block}
+.hot:active{opacity:.7}
+
+/* cover */
+#cover{position:fixed;inset:0;z-index:50;background:#dfe9ef;display:none;cursor:pointer}
+#cover{overflow:hidden}
+#coverBox{position:absolute;left:50%;top:50%;width:390px;height:844px;transform-origin:50% 50%}
+#coverBox img{width:390px;height:844px;display:block;user-select:none;-webkit-user-drag:none}
+#coverSnow{position:absolute;inset:0;filter:blur(.65px);pointer-events:none}
+#coverSnow i{position:absolute;display:block;will-change:transform}
+#coverSnow svg{display:block;width:100%;height:100%}
+
+/* instax */
+#instax{position:absolute;left:2.5px;top:1952px;width:390px;height:420px;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.card{position:absolute;left:0;top:0;width:255px;height:310px;transform-origin:0 0;will-change:transform,opacity}
+.card img{position:absolute;left:-2px;top:0;width:259.2px;height:314px;pointer-events:none;-webkit-user-drag:none}
+#instaxNum{position:absolute;left:135px;top:350px;width:120px;height:45px;pointer-events:none}
+
+/* map */
+#map{position:absolute;left:30px;top:2726px;width:330px;height:220px;border-radius:4px;overflow:hidden;background:#e9eff3}
+#map iframe{width:100%;height:100%;border:0;display:block}
+#map .ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:var(--rose);font-size:12px;text-align:center;line-height:1.5}
+#map .ph b{color:var(--wine);font-weight:600;font-size:13px}
+
+/* rsvp form (designed at 252px wide) */
+.rf{position:relative;width:252px;height:420px;font-size:13px}
+.rf .ab{position:absolute}
+.chk{display:flex;align-items:center;gap:8px;height:20px;font-weight:500;font-size:13px;color:var(--rose);white-space:nowrap}
+.chk .bx{width:16px;height:16px;border-radius:3px;border:1.2px solid var(--rose);background:rgba(255,255,255,.6);display:flex;align-items:center;justify-content:center;flex:none;transition:background .15s,border-color .15s}
+.chk .bx svg{opacity:0;transition:opacity .15s}
+.chk.on{color:var(--wine)}
+.chk.on .bx{background:var(--wine);border-color:var(--wine)}
+.chk.on .bx svg{opacity:1}
+.lbl{font-weight:600;font-size:12px;color:var(--wine);line-height:14px}
+.tg{width:122px;height:38px;border-radius:3.6px;border:1.2px solid var(--line);background:rgba(255,255,255,.55);font-weight:500;font-size:13px;color:var(--rose);display:flex;align-items:center;justify-content:center;transition:background .15s,border-color .15s,color .15s}
+.tg.on{background:var(--sky);border-color:var(--sky);color:var(--wine);font-weight:600}
+.inp{height:38px;border-radius:3.6px;border:1.2px solid var(--line);background:rgba(255,255,255,.55);padding:0 0 0 13px;font-size:13px;color:var(--wine);outline:none;-webkit-appearance:none;appearance:none;border-radius:3.6px}
+.inp::placeholder{color:var(--rose);opacity:1}
+.inp:focus{border-color:#c9b3bb}
+.sel{width:122px;height:38px;border-radius:3.6px;border:1.2px solid var(--line);background:rgba(255,255,255,.55);display:flex;align-items:center;justify-content:space-between;padding:0 12px 0 13px;font-size:13px;color:var(--wine)}
+.sel svg{transition:transform .2s}
+.sel.open svg{transform:rotate(180deg)}
+.opts{position:absolute;width:122px;background:#fff;border:1.2px solid var(--line);border-radius:3.6px;box-shadow:0 4px 12px rgba(0,0,0,.12);z-index:5;overflow:hidden;display:none}
+.opts.open{display:block}
+.opts button{display:block;width:100%;height:32px;text-align:left;padding:0 13px;font-size:13px;color:var(--wine)}
+.opts button:active,.opts button.cur{background:#f1f5f8}
+.consent{font-size:12px;color:#999;font-weight:500}
+.consent .bx{border-color:var(--rose)}
+.consent.on{color:#999}
+.fold{position:absolute;width:30px;height:20px;display:flex;align-items:center;justify-content:center}
+.fold svg{transition:transform .2s}
+.fold.open svg{transform:rotate(180deg)}
+.pp{position:absolute;left:0;width:252px;background:#fff;border:1.2px solid var(--line);border-radius:3.6px;box-shadow:0 4px 12px rgba(0,0,0,.12);padding:10px 12px;font-size:11px;line-height:1.6;color:#777;z-index:6;display:none}
+.pp.open{display:block}
+.pp b{color:var(--wine);font-weight:600}
+.submit{width:252px;height:42px;border-radius:3.6px;background:var(--sky);font-weight:600;font-size:13px;color:var(--wine)}
+.submit:active{filter:brightness(.96)}
+#envForm{position:absolute;left:107px;top:3809.3px;transform:scale(.730159);transform-origin:0 0}
+
+/* accordion */
+.acc{display:flex;flex-direction:column;gap:12px;font-family:'MapoFlowerIsland','Pretendard',serif}
+.acc .btn{width:300px;height:46px;border-radius:3.6px;background:var(--sky);display:flex;align-items:center;justify-content:center;gap:8px;font-size:13px;color:var(--wine);position:relative;z-index:1}
+.acc .btn svg{transition:transform .3s ease}
+.acc .blk.open .btn svg{transform:rotate(180deg)}
+.acc .panel{height:0;overflow:hidden;opacity:0;transition:height .3s ease,opacity .3s ease;background:rgba(255,255,255,.6);border:1px solid transparent;border-top:0;position:relative}
+.acc .blk.open .panel{height:74px;opacity:1;border-color:var(--line)}
+.acc .in{position:absolute;left:0;top:0;width:298px;height:74px}
+.acc .k{position:absolute;left:18px;top:17px;font-size:11px;color:var(--rose)}
+.acc .n{position:absolute;left:45px;top:15px;font-size:14px;color:var(--wine)}
+.acc .a{position:absolute;left:18px;top:42px;font-size:12px;color:rgba(143,36,72,.75)}
+.acc .cp{position:absolute;left:216px;top:22px;width:66px;height:30px;border-radius:3.6px;background:var(--wine);color:#fff;font-size:11px;font-family:'MapoFlowerIsland','Pretendard',serif}
+.acc .cp:active{filter:brightness(1.15)}
+
+/* overlays */
+.ov{position:fixed;inset:0;z-index:60;display:none;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.ov.open{display:block}
+.ov .dim{position:fixed;inset:0;background:rgba(0,0,0,.45)}
+.ov .center{position:relative;min-height:100%;display:flex;align-items:center;justify-content:center;pointer-events:none}
+.ov .center>*{pointer-events:auto}
+.ov.fade{animation:fadeIn .4s ease}
+.ov.quick{animation:fadeIn .2s ease}
+.mbox{position:relative}
+.mbox img.bg{position:absolute;left:-2px;top:0;pointer-events:none;-webkit-user-drag:none}
+#ovRsvp .stage{position:relative;width:300px;height:750px;margin:max(12px,calc(50vh/var(--z) - 443px)) auto 24px}
+#ovRsvp .center{display:block}
+.xbtn{position:absolute;left:272px;top:140px;width:28px;height:28px;display:flex;align-items:center;justify-content:center}
+.today{position:absolute;left:0;top:726px;font-size:12px;color:#fff;font-weight:500}
+.today .bx{border-color:var(--rose)}
+.today.on{color:#fff}
+
+/* toast */
+#toast{position:fixed;left:50%;top:calc(50% + 300px * var(--z));transform:translate(-50%,-50%);z-index:90;pointer-events:none;opacity:0;transition:opacity .2s}
+#toast.show{opacity:1}
+#toast div{zoom:var(--z);background:rgba(51,36,41,.92);color:#fff;border-radius:20px;padding:11px 18px;font-size:12px;font-weight:500;white-space:nowrap;line-height:14px}
+@media (max-height:700px){#toast{top:calc(100% - 90px)}}
+</style>
+</head>
+<body>
+
+<div id="cover" aria-label="청첩장 열기"><div id="coverBox"><img src="assets/cover.webp" alt="인제 ♥ 시온 청첩장 커버"><div id="coverSnow"></div></div></div>
+
+<div id="app" class="z">
+  <section id="seg1" class="seg"><div class="fg"></div>
+    <button class="hot" id="btnContact" style="left:128px;top:1037px;width:135px;height:35px" aria-label="축하 연락하기"></button>
+
+    <div id="instax" aria-label="사진 넘기기"></div>
+
+    <button class="hot" id="btnAddrCopy" style="left:276px;top:2674px;width:28px;height:30px" aria-label="주소 복사"></button>
+    <div id="map"></div>
+    <button class="hot" data-app="naver" style="left:30px;top:2956px;width:104px;height:40px" aria-label="네이버 지도"></button>
+    <button class="hot" data-app="kakao" style="left:143px;top:2956px;width:104px;height:40px" aria-label="카카오맵"></button>
+    <button class="hot" data-app="tmap" style="left:256px;top:2956px;width:104px;height:40px" aria-label="티맵"></button>
+
+    <div id="envForm"></div>
+  </section>
+
+  <section id="seg2" class="seg"><div class="fg"></div>
+    <div class="acc" id="acc">
+      <div class="blk" data-k="g">
+        <button class="btn">신랑측 계좌번호 <svg width="10" height="5" viewBox="0 0 10 5"><path d="M.6.6 5 4.4 9.4.6" fill="none" stroke="#8f2448" stroke-width="1.2"/></svg></button>
+        <div class="panel"><div class="in"><span class="k">신랑</span><span class="n">이인제</span><span class="a">새마을금고 9003246803598</span><button class="cp" data-copy="새마을금고 9003246803598 이인제">계좌 복사</button></div></div>
+      </div>
+      <div class="blk" data-k="b">
+        <button class="btn">신부측 계좌번호 <svg width="10" height="5" viewBox="0 0 10 5"><path d="M.6.6 5 4.4 9.4.6" fill="none" stroke="#8f2448" stroke-width="1.2"/></svg></button>
+        <div class="panel"><div class="in"><span class="k">신부</span><span class="n">최시온</span><span class="a">카카오뱅크 3333102204295</span><button class="cp" data-copy="카카오뱅크 3333102204295 최시온">계좌 복사</button></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="seg3" class="seg"><div class="fg"></div>
+    <button class="hot" id="btnKakao" style="left:107px;top:174px;width:50px;height:66px" aria-label="카카오톡 공유"></button>
+    <button class="hot" id="btnLink" style="left:233px;top:174px;width:50px;height:66px" aria-label="링크 복사"></button>
+  </section>
+</div>
+
+<canvas id="snow" aria-hidden="true"></canvas>
+
+<!-- contact: select -->
+<div class="ov" id="ovSel">
+  <div class="dim" data-close></div>
+  <div class="center"><div class="mbox z" style="width:292px;height:188px">
+    <img class="bg" src="assets/msel.webp" style="width:296.5px;height:193.5px" alt="">
+    <button class="hot" data-go="ovGroom" style="left:35px;top:124px;width:102px;height:42px" aria-label="신랑측"></button>
+    <button class="hot" data-go="ovBride" style="left:155px;top:124px;width:102px;height:42px" aria-label="신부측"></button>
+  </div></div>
+</div>
+<div class="ov" id="ovGroom">
+  <div class="dim" data-close></div>
+  <div class="center"><div class="mbox z" style="width:262px;height:391px">
+    <img class="bg" src="assets/mgroom.webp" style="width:266.5px;height:396px" alt="">
+    <div class="rows" data-nums="01025726225,01025063190,01074046225"></div>
+    <button class="hot" data-go="ovSel" style="left:100px;top:346px;width:62px;height:30px" aria-label="뒤로가기"></button>
+  </div></div>
+</div>
+<div class="ov" id="ovBride">
+  <div class="dim" data-close></div>
+  <div class="center"><div class="mbox z" style="width:262px;height:391px">
+    <img class="bg" src="assets/mbride.webp" style="width:266.5px;height:396px" alt="">
+    <div class="rows" data-nums="01058830371,01077570317,01029180317"></div>
+    <button class="hot" data-go="ovSel" style="left:100px;top:346px;width:62px;height:30px" aria-label="뒤로가기"></button>
+  </div></div>
+</div>
+
+<!-- rsvp modal -->
+<div class="ov" id="ovRsvp">
+  <div class="dim"></div>
+  <div class="center"><div class="stage z">
+    <img src="assets/rpaper.webp" style="position:absolute;left:-2px;top:0;width:305px;height:718.5px;pointer-events:none" alt="">
+    <img src="assets/rwax.webp" style="position:absolute;left:86px;top:124px;width:128.5px;height:128.5px;pointer-events:none" alt="">
+    <div id="modalForm" style="position:absolute;left:24px;top:264px"></div>
+    <button class="xbtn" id="rsvpClose" aria-label="닫기"><svg width="14" height="14" viewBox="0 0 14 14"><path d="M1 1l12 12M13 1 1 13" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="chk today" id="rsvpToday"><span class="bx"><svg width="8" height="6" viewBox="0 0 8 6"><path d="M.8 3l2.2 2.2L7.2.8" fill="none" stroke="#fff" stroke-width="1.6"/></svg></span>오늘 하루동안 보지 않기</button>
+  </div></div>
+</div>
+
+<div id="toast"><div></div></div>
+
+<script src="flakes.js"></script>
+<script>
+/* ===== 배포 설정 (도메인·키가 정해지면 여기만 바꾸면 됩니다) ===== */
+const CONFIG = {
+  SITE_URL: 'https://janes-wedding.com/',
+  NAVER_MAP_KEY: '',     // 네이버 클라우드 Maps Client ID (실시간 네이버 지도)
+  KAKAO_JS_KEY: '',      // 카카오 개발자 JavaScript 키 (카톡 공유용)
+  RSVP_ENDPOINT: ''      // 구글 시트 Apps Script 웹앱 주소
+};
+const VENUE = { name:'경기교총웨딩하우스', addr:'경기도 수원시 팔달구 팔달산로 89-13', lat:null, lng:null };
+const SHARE = { title:'인제 ♥ 시온, 결혼합니다', desc:'2027년 2월 20일 토요일 오후 2시 20분 · 경기교총웨딩하우스' };
+
+const $ = (s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const store = { get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}} };
+const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+const siteUrl = ()=> CONFIG.SITE_URL || location.href.split('#')[0];
+const todayKey = ()=>{const d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()};
+
+/* ---------- scale ---------- */
+function fit(){ const w=Math.min(window.innerWidth||390, 520); document.documentElement.style.setProperty('--z', (w/390).toFixed(5)); }
+fit(); addEventListener('resize', fit);
+
+/* ---------- toast & copy ---------- */
+let tT; function toast(msg){ const t=$('#toast'); t.firstChild.textContent=msg; t.classList.add('show'); clearTimeout(tT); tT=setTimeout(()=>t.classList.remove('show'),1600); }
+async function copy(text){
+  const legacy=()=>{ try{ const ta=document.createElement('textarea'); ta.value=text; ta.setAttribute('readonly',''); ta.style.cssText='position:fixed;top:0;left:0;opacity:0'; document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0,text.length); const ok=document.execCommand('copy'); ta.remove(); return ok; }catch(_){ return false; } };
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    try{ const ok=await Promise.race([navigator.clipboard.writeText(text).then(()=>true), new Promise(r=>setTimeout(()=>r('timeout'),700))]); if(ok===true) return true; }catch(e){}
+  }
+  return legacy();
+}
+function openUrl(u){ const a=document.createElement('a'); a.href=u; a.target='_blank'; a.rel='noopener'; document.body.appendChild(a); a.click(); a.remove(); }
+
+/* ---------- overlays ---------- */
+function openOv(id, cls='quick'){ const o=$('#'+id); o.classList.remove('fade','quick'); void o.offsetWidth; o.classList.add('open'); if(cls) o.classList.add(cls); o.scrollTop=0; document.body.classList.add('lock'); }
+function closeOv(id){ $('#'+id).classList.remove('open'); if(!$$('.ov.open').length) document.body.classList.remove('lock'); }
+$$('.ov [data-close]').forEach(d=>d.addEventListener('click',()=>closeOv(d.closest('.ov').id)));
+$$('.ov [data-go]').forEach(b=>b.addEventListener('click',()=>{ const cur=b.closest('.ov').id; closeOv(cur); openOv(b.dataset.go,''); }));
+$('#btnContact').addEventListener('click',()=>openOv('ovSel'));
+
+/* contact rows: call / sms (rows at y 187, 248, 310) */
+$$('.rows').forEach(r=>{ r.dataset.nums.split(',').forEach((num,i)=>{ const y=[187,248,310][i];
+  const call=document.createElement('a'); call.className='hot'; call.href='tel:'+num; call.style.cssText=`left:192px;top:${y-9}px;width:28px;height:31px`; call.setAttribute('aria-label','전화 '+num);
+  const sms=document.createElement('a'); sms.className='hot'; sms.href='sms:'+num; sms.style.cssText=`left:221px;top:${y-9}px;width:28px;height:31px`; sms.setAttribute('aria-label','문자 '+num);
+  r.after(call, sms); }); });
+
+/* ---------- RSVP form ---------- */
+const CHECK='<svg width="8" height="6" viewBox="0 0 8 6"><path d="M.8 3l2.2 2.2L7.2.8" fill="none" stroke="#fff" stroke-width="1.6"/></svg>';
+const ARW=c=>`<svg width="10" height="5" viewBox="0 0 10 5"><path d="M.6.6 5 4.4 9.4.6" fill="none" stroke="${c}" stroke-width="1.2"/></svg>`;
+function buildForm(host, source){
+  host.innerHTML = `<form class="rf" novalidate autocomplete="off">
+    <button type="button" class="chk ab" data-side="신랑측" style="left:26px;top:0"><span class="bx">${CHECK}</span>신랑측</button>
+    <button type="button" class="chk ab" data-side="신부측" style="left:156px;top:0"><span class="bx">${CHECK}</span>신부측</button>
+    <div class="lbl ab" style="left:0;top:40px">참석 여부</div>
+    <button type="button" class="tg ab" data-att="참석" style="left:0;top:60px">참석</button>
+    <button type="button" class="tg ab" data-att="미참석" style="left:130px;top:60px">미참석</button>
+    <div class="lbl ab" style="left:0;top:114px">식사 여부</div>
+    <button type="button" class="tg ab" data-meal="식사 가능" style="left:0;top:134px">식사 가능</button>
+    <button type="button" class="tg ab" data-meal="식사 불가" style="left:130px;top:134px">식사 불가</button>
+    <div class="lbl ab" style="left:0;top:188px">성함</div>
+    <div class="lbl ab" style="left:130px;top:188px">인원</div>
+    <input class="inp ab" name="name" type="text" placeholder="홍길동" maxlength="20" style="left:0;top:208px;width:122px">
+    <button type="button" class="sel ab" style="left:130px;top:208px"><span class="v">1</span>${ARW('#8f2448')}</button>
+    <div class="opts ab" style="left:130px;top:250px">${['1','2','3','4','5인 이상'].map(v=>`<button type="button" data-v="${v}">${v}</button>`).join('')}</div>
+    <div class="lbl ab" style="left:0;top:262px">연락처</div>
+    <input class="inp ab" name="phone" type="tel" inputmode="numeric" placeholder="010-1234-5678" maxlength="13" style="left:0;top:282px;width:252px">
+    <button type="button" class="chk consent ab" style="left:0;top:338px;font-size:12px"><span class="bx">${CHECK}</span>개인정보 수집 및 이용 동의</button>
+    <button type="button" class="fold ab" style="left:225px;top:338px" aria-label="자세히">${ARW('#b894a0')}</button>
+    <div class="pp" style="top:362px"><b>수집 항목</b> 성함, 연락처, 참석·식사 여부, 인원<br><b>이용 목적</b> 하객 인원 파악 및 예식 준비<br><b>보유 기간</b> 예식 후 1개월 내 파기</div>
+    <button type="submit" class="submit ab" style="left:0;top:378px">참석 여부 전달하기</button>
+  </form>`;
+  const f=host.querySelector('form'); const st={side:'',att:'',meal:'',count:'1',consent:false};
+  const pick=(attr,key)=>$$(`[data-${attr}]`,f).forEach(b=>b.addEventListener('click',()=>{ st[key]=b.dataset[attr]; $$(`[data-${attr}]`,f).forEach(x=>x.classList.toggle('on',x===b)); }));
+  pick('side','side'); pick('att','att'); pick('meal','meal');
+  const sel=$('.sel',f), opts=$('.opts',f);
+  sel.addEventListener('click',e=>{ e.stopPropagation(); const o=!opts.classList.contains('open'); opts.classList.toggle('open',o); sel.classList.toggle('open',o); });
+  $$('button',opts).forEach(b=>b.addEventListener('click',e=>{ e.stopPropagation(); st.count=b.dataset.v; $('.v',sel).textContent=b.dataset.v; $$('button',opts).forEach(x=>x.classList.toggle('cur',x===b)); opts.classList.remove('open'); sel.classList.remove('open'); }));
+  document.addEventListener('click',()=>{ opts.classList.remove('open'); sel.classList.remove('open'); });
+  const cons=$('.consent',f); cons.addEventListener('click',()=>{ st.consent=!st.consent; cons.classList.toggle('on',st.consent); });
+  const fold=$('.fold',f), pp=$('.pp',f); fold.addEventListener('click',e=>{ e.stopPropagation(); const o=!pp.classList.contains('open'); pp.classList.toggle('open',o); fold.classList.toggle('open',o); });
+  pp.addEventListener('click',()=>{ pp.classList.remove('open'); fold.classList.remove('open'); });
+  const ph=f.elements.phone; ph.addEventListener('input',()=>{ const d=ph.value.replace(/\D/g,'').slice(0,11); ph.value = d.length<4?d : d.length<8? d.slice(0,3)+'-'+d.slice(3) : d.slice(0,3)+'-'+d.slice(3,d.length-4)+'-'+d.slice(-4); });
+  f.addEventListener('submit',async e=>{
+    e.preventDefault();
+    const name=f.elements.name.value.trim(), phone=ph.value.replace(/\D/g,'');
+    if(!st.side) return toast('신랑측 / 신부측을 선택해 주세요');
+    if(!st.att) return toast('참석 여부를 선택해 주세요');
+    if(!st.meal) return toast('식사 여부를 선택해 주세요');
+    if(!name) return toast('성함을 입력해 주세요');
+    if(!/^01\d{8,9}$/.test(phone)) return toast('연락처를 정확히 입력해 주세요');
+    if(!st.consent) return toast('개인정보 수집 및 이용에 동의해 주세요');
+    const data={side:st.side,attend:st.att,meal:st.meal,name,phone,count:st.count,source,submittedAt:new Date().toISOString()};
+    store.set('rsvp:'+name+':'+phone, JSON.stringify(data)); // 같은 이름+연락처는 마지막 내용만 유지
+    if(CONFIG.RSVP_ENDPOINT){ try{ await fetch(CONFIG.RSVP_ENDPOINT,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(data)}); }catch(err){} }
+    toast('참석 여부가 전달되었어요. 감사합니다!');
+    if(source==='modal') setTimeout(()=>closeOv('ovRsvp'),300);
+  });
+}
+buildForm($('#modalForm'),'modal');
+buildForm($('#envForm'),'envelope');
+
+$('#rsvpClose').addEventListener('click',()=>closeOv('ovRsvp'));
+$('#rsvpToday').addEventListener('click',e=>{ e.currentTarget.classList.add('on'); store.set('rsvpHide',todayKey()); setTimeout(()=>closeOv('ovRsvp'),200); });
+
+/* ---------- cover → main ---------- */
+const app=$('#app'), cover=$('#cover');
+/* ---------- cover (390×844 디자인을 화면에 꽉 차게 + 눈 내리는 모션) ---------- */
+const coverBox=$('#coverBox');
+function fitCover(){ const s=Math.max(innerWidth/390, innerHeight/844); coverBox.style.transform=`translate(-50%,-50%) scale(${s})`; }
+fitCover(); addEventListener('resize',fitCover);
+(function(){ const box=$('#coverSnow'); const anims=[];
+  FLAKES.forEach(f=>{ const el=document.createElement('i'); el.style.cssText=`left:${f.x}px;top:${f.y}px;width:${f.w}px;height:${f.h}px`; el.innerHTML=FLAKE_SVGS[f.s]; box.appendChild(el);
+    try{ anims.push(el.animate(f.f.map(k=>({offset:k[0],transform:`translate(${k[1]}px,${k[2]}px)`})),{duration:30000,iterations:Infinity,easing:'linear'})); }catch(e){} });
+  window.__coverAnims=anims; })();
+
+/* 항상 커버로 시작. '오늘 하루동안 보지 않기'를 누른 날은 커버 → 메인 페이드인(모달 없음) */
+cover.style.display='block'; document.body.classList.add('lock');
+app.addEventListener('animationend',()=>{ app.classList.remove('fadein'); app.classList.add('show'); });
+cover.addEventListener('click',()=>{ cover.style.display='none'; (window.__coverAnims||[]).forEach(a=>a.cancel()); window.scrollTo(0,0); startSnow();
+  if(store.get('rsvpHide')===todayKey()){ document.body.classList.remove('lock'); app.classList.add('fadein'); }
+  else{ app.classList.add('show'); openOv('ovRsvp','fade'); } },{once:true});
+
+/* ---------- 메인 배경 눈 (피그마 셰이더 '청첩장 · 눈과 3분 적설' 이식: 3분 동안 바닥에 60px 쌓임) ---------- */
+function startSnow(){
+  const cv=$('#snow'); const gl=cv.getContext('webgl',{premultipliedAlpha:true,alpha:true,antialias:false}); if(!gl) return;
+  const vs='attribute vec2 a;void main(){gl_Position=vec4(a,0.,1.);}';
+  const fs=`precision highp float;
+  uniform vec2 uRes; uniform float uDpr; uniform vec2 uOrigin; uniform float uZoom; uniform vec2 uPage; uniform float uT;
+  float hash(vec2 v){return fract(sin(dot(v,vec2(127.1,311.7)))*43758.5453);}
+  float seg(vec2 q,vec2 a,vec2 b){vec2 ab=b-a;return length(q-a-ab*clamp(dot(q-a,ab)/dot(ab,ab),0.,1.));}
+  float flake(vec2 q,float r){ if(length(q)>r+1.2) return 0.; float d=100.;
+    for(int i=0;i<6;i++){ float an=float(i)*1.04719755; vec2 ax=vec2(cos(an),sin(an)); vec2 sd=vec2(-ax.y,ax.x);
+      d=min(d,seg(q,vec2(0.),ax*r)); vec2 j=ax*r*.57; d=min(d,seg(q,j,j-ax*r*.19+sd*r*.22)); d=min(d,seg(q,j,j-ax*r*.19-sd*r*.22)); }
+    return 1.-smoothstep(.34,.95,d); }
+  void main(){
+    vec2 css=vec2(gl_FragCoord.x, uRes.y-gl_FragCoord.y)/uDpr;
+    vec2 pos=(css-uOrigin)/uZoom; float W=uPage.x, H=uPage.y;
+    if(pos.x<0.||pos.x>W||pos.y<0.||pos.y>H){gl_FragColor=vec4(0.);return;}
+    float snow=0.;
+    for(int l=0;l<3;l++){ float sd=float(l)*41.7; float sp=15.+float(l)*4.5; vec2 cs=vec2(95.,245.);
+      vec2 mv=pos-vec2(0.,uT*sp); vec2 g=floor(mv/cs);
+      for(int iy=-1;iy<=1;iy++){ for(int ix=-1;ix<=1;ix++){
+        vec2 c=g+vec2(float(ix),float(iy)); float h=hash(c+sd);
+        vec2 ce=(c+vec2(.16+.68*h,.15+.7*hash(c+sd+19.)))*cs; float dr=7.*sin(uT*.18+h*6.283);
+        snow=max(snow,flake(mv-ce-vec2(dr,0.),2.2+3.2*h)*(.36+.36*h)); }}}
+    float pr=clamp(uT/180.,0.,1.); float ux=pos.x/W;
+    float edge=60.*pr*(.86+.08*sin(ux*8.+.4)+.06*sin(ux*17.));
+    float bank=(1.-smoothstep(edge-.7,edge+.7,H-pos.y))*step(.001,pr);
+    float al=max(snow,bank*.96);
+    gl_FragColor=vec4(vec3(.99,.995,1.)*al,al);
+  }`;
+  const sh=(t,src)=>{const s=gl.createShader(t);gl.shaderSource(s,src);gl.compileShader(s);return s;};
+  const pg=gl.createProgram(); gl.attachShader(pg,sh(gl.VERTEX_SHADER,vs)); gl.attachShader(pg,sh(gl.FRAGMENT_SHADER,fs)); gl.linkProgram(pg);
+  if(!gl.getProgramParameter(pg,gl.LINK_STATUS)) return;
+  gl.useProgram(pg); const buf=gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER,buf); gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),gl.STATIC_DRAW);
+  const loc=gl.getAttribLocation(pg,'a'); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
+  const U=n=>gl.getUniformLocation(pg,n); const uRes=U('uRes'),uDpr=U('uDpr'),uOrigin=U('uOrigin'),uZoom=U('uZoom'),uPage=U('uPage'),uT=U('uT');
+  const dpr=Math.min(window.devicePixelRatio||1,1.5); let t0=performance.now(), last=0;
+  function frame(now){
+    requestAnimationFrame(frame); if(document.hidden) return;
+    const w=Math.round(innerWidth*dpr), h=Math.round(innerHeight*dpr); if(cv.width!==w||cv.height!==h){cv.width=w;cv.height=h;}
+    gl.viewport(0,0,w,h); gl.clearColor(0,0,0,0); gl.clear(gl.COLOR_BUFFER_BIT);
+    const r=app.getBoundingClientRect(); const z=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--z'))||1;
+    gl.uniform2f(uRes,w,h); gl.uniform1f(uDpr,dpr); gl.uniform2f(uOrigin,r.left,r.top); gl.uniform1f(uZoom,z); gl.uniform2f(uPage,390,r.height/z); gl.uniform1f(uT,(now-t0)/1000);
+    gl.drawArrays(gl.TRIANGLES,0,3);
+  }
+  requestAnimationFrame(frame);
+}
+
+/* ---------- instax stack ---------- */
+const SLOT={ front:[1,0,0,1,67.5,40], second:[0.99452,-0.10453,0.10453,0.99452,46.9965,58.1765], third:[0.99452,0.10453,-0.10453,0.99452,89.4004,31.5217], flick:[0.97030,0.24192,-0.24192,0.97030,278.785,-14.2409] };
+const mtx=a=>`matrix(${a.join(',')})`;
+const N=13, stack=$('#instax'), cards=[];
+for(let i=1;i<=N;i++){ const c=document.createElement('div'); c.className='card'; c.innerHTML=`<img src="assets/card${i}.webp" alt="사진 ${i}" draggable="false">`; stack.appendChild(c); cards.push(c); }
+const numImg=document.createElement('img'); numImg.id='instaxNum'; numImg.alt=''; stack.appendChild(numImg);
+for(let i=1;i<=N;i++){ const im=new Image(); im.src=`assets/num${i}.webp`; }
+let cur=0, busy=false;
+function layout(trans){
+  cards.forEach((c,i)=>{ const k=(i-cur+N)%N; c.style.transition=trans||'none';
+    c.style.transform=mtx(k===0?SLOT.front:k===1?SLOT.second:SLOT.third); c.style.opacity=k<=2?1:0; c.style.zIndex=100-k; });
+  numImg.src=`assets/num${cur+1}.webp`;
+}
+layout();
+function next(){ if(busy) return; busy=true; const c=cards[cur];
+  c.style.transition='transform .22s ease-out'; c.style.transform=mtx(SLOT.flick);
+  setTimeout(()=>{ c.style.zIndex=0; cur=(cur+1)%N; layout('transform .38s ease-in-out, opacity .38s ease-in-out'); c.style.zIndex=0; setTimeout(()=>{ layout(); busy=false; },400); },230); }
+function prev(){ if(busy) return; busy=true; const p=(cur-1+N)%N, c=cards[p];
+  c.style.transition='none'; c.style.zIndex=200; c.style.opacity=1; c.style.transform=mtx(SLOT.flick); void c.offsetWidth;
+  cur=p; cards.forEach((x,i)=>{ if(i===p) return; const k=(i-cur+N)%N; x.style.transition='transform .38s ease-in-out, opacity .38s ease-in-out'; x.style.transform=mtx(k===1?SLOT.second:SLOT.third); x.style.opacity=k<=2?1:0; x.style.zIndex=100-k; });
+  c.style.transition='transform .38s ease-in-out'; c.style.transform=mtx(SLOT.front); numImg.src=`assets/num${cur+1}.webp`;
+  setTimeout(()=>{ layout(); busy=false; },400); }
+let sx=null, sy=null, moved=false;
+stack.addEventListener('pointerdown',e=>{ sx=e.clientX; sy=e.clientY; moved=false; });
+stack.addEventListener('pointermove',e=>{ if(sx!==null && Math.abs(e.clientX-sx)>8) moved=true; });
+stack.addEventListener('pointerup',e=>{ if(sx===null) return; const dx=e.clientX-sx, dy=e.clientY-sy; sx=null;
+  if(Math.abs(dx)>30 && Math.abs(dx)>Math.abs(dy)) { dx>0? next() : prev(); } else if(!moved && Math.abs(dy)<10) next(); });
+stack.addEventListener('pointercancel',()=>{ sx=null; });
+
+/* ---------- map (네이버 실시간 지도 · 드래그/확대 가능) ---------- */
+(function(){
+  const box=$('#map'); const sandboxed=/claude|anthropic/i.test(location.hostname);
+  const ph=msg=>box.innerHTML=`<div class="ph"><b>경기교총웨딩하우스</b>${msg}</div>`;
+  if(CONFIG.NAVER_MAP_KEY){
+    const s=document.createElement('script'); s.src=`https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=${CONFIG.NAVER_MAP_KEY}&submodules=geocoder`;
+    s.onload=()=>{ const draw=p=>{ const m=new naver.maps.Map(box,{center:p,zoom:16,zoomControl:true,zoomControlOptions:{position:naver.maps.Position.TOP_RIGHT,style:naver.maps.ZoomControlStyle.SMALL},scaleControl:false,mapDataControl:false,logoControlOptions:{position:naver.maps.Position.BOTTOM_LEFT}}); new naver.maps.Marker({position:p,map:m}); };
+      if(VENUE.lat) return draw(new naver.maps.LatLng(VENUE.lat,VENUE.lng));
+      naver.maps.Service.geocode({query:VENUE.addr},(st,res)=>{ const a=res&&res.v2&&res.v2.addresses&&res.v2.addresses[0]; if(st!==naver.maps.Service.Status.OK||!a) return ph('지도를 불러오지 못했어요'); draw(new naver.maps.LatLng(+a.y,+a.x)); }); };
+    s.onerror=()=>ph('지도를 불러오지 못했어요'); document.head.appendChild(s); return;
+  }
+  if(CONFIG.KAKAO_JS_KEY){
+    const s=document.createElement('script'); s.src=`https://dapi.kakao.com/v2/maps/sdk.js?appkey=${CONFIG.KAKAO_JS_KEY}&libraries=services&autoload=false`;
+    s.onload=()=>kakao.maps.load(()=>{ const geo=new kakao.maps.services.Geocoder(); geo.addressSearch(VENUE.addr,(r,st)=>{ if(st!==kakao.maps.services.Status.OK) return; const p=new kakao.maps.LatLng(r[0].y,r[0].x); const m=new kakao.maps.Map(box,{center:p,level:3}); new kakao.maps.Marker({map:m,position:p}); m.addControl(new kakao.maps.ZoomControl(),kakao.maps.ControlPosition.RIGHT); }); });
+    document.head.appendChild(s); return;
+  }
+  if(sandboxed) return ph('실시간 네이버 지도는 도메인 연결 후 표시돼요<br>아래 지도 앱 버튼으로 바로 열 수 있어요');
+  box.innerHTML=`<iframe loading="lazy" src="https://maps.google.com/maps?q=${encodeURIComponent(VENUE.addr+' '+VENUE.name)}&z=16&output=embed" title="경기교총웨딩하우스 지도"></iframe>`;
+})();
+
+/* ---------- map apps ---------- */
+const q=encodeURIComponent(VENUE.name);
+const APPS={
+  naver:{app:`nmap://search?query=${q}&appname=${encodeURIComponent(location.hostname||'wedding')}`, web:`https://map.naver.com/p/search/${q}`},
+  kakao:{app:`kakaomap://search?q=${q}`, web:`https://map.kakao.com/link/search/${q}`},
+  tmap:{app:`tmap://search?name=${q}`, web: isIOS?'https://apps.apple.com/kr/app/id431589174':'https://play.google.com/store/apps/details?id=com.skt.tmap.ku'}
+};
+$$('[data-app]').forEach(b=>b.addEventListener('click',()=>{ const a=APPS[b.dataset.app];
+  if(!isMobile){ openUrl(b.dataset.app==='tmap'?'https://www.tmap.co.kr/':a.web); return; }
+  let gone=false; const onHide=()=>{ if(document.hidden) gone=true; }; document.addEventListener('visibilitychange',onHide);
+  location.href=a.app; setTimeout(()=>{ document.removeEventListener('visibilitychange',onHide); if(!gone && !document.hidden) location.href=a.web; },1600); }));
+
+$('#btnAddrCopy').addEventListener('click',async()=>{ await copy(VENUE.addr); toast(`'${VENUE.addr}' 복사되었어요`); });
+
+/* ---------- accordion ---------- */
+$$('#acc .blk').forEach(b=>$('.btn',b).addEventListener('click',()=>{ const o=!b.classList.contains('open'); $$('#acc .blk').forEach(x=>x.classList.toggle('open', x===b && o)); }));
+$$('#acc .cp').forEach(b=>b.addEventListener('click',async()=>{ await copy(b.dataset.copy.replace(/ [^ ]+$/,'')); toast(`'${b.dataset.copy}' 복사되었어요`); }));
+
+/* ---------- share ---------- */
+function loadKakao(){ return new Promise((res,rej)=>{ if(window.Kakao) return res(); const s=document.createElement('script'); s.src='https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js'; s.onload=res; s.onerror=rej; document.head.appendChild(s); }); }
+$('#btnKakao').addEventListener('click',async()=>{
+  const url=siteUrl();
+  if(CONFIG.KAKAO_JS_KEY){ try{ await loadKakao(); if(!Kakao.isInitialized()) Kakao.init(CONFIG.KAKAO_JS_KEY);
+      Kakao.Share.sendDefault({objectType:'feed',content:{title:SHARE.title,description:SHARE.desc,imageUrl:new URL('assets/ogwide.jpg',url).href,imageWidth:1200,imageHeight:630,link:{mobileWebUrl:url,webUrl:url}},buttons:[{title:'청첩장 보기',link:{mobileWebUrl:url,webUrl:url}}]}); return; }catch(e){} }
+  if(isMobile && navigator.share && !/claude|anthropic/i.test(location.hostname)){ try{ await navigator.share({title:SHARE.title,text:SHARE.desc,url}); return; }catch(e){ if(e&&e.name==='AbortError') return; } }
+  const ok=await copy(url); toast(ok?'링크를 복사했어요. 카카오톡에 붙여넣어 주세요':'카카오톡 공유는 도메인 연결 후 사용할 수 있어요');
+});
+$('#btnLink').addEventListener('click',async()=>{ const ok=await copy(siteUrl()); toast(ok?'청첩장 링크가 복사되었어요':'이 미리보기 화면에서는 복사가 막혀 있어요'); });
+</script>
+</body>
+</html>
